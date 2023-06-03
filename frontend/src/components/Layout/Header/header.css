@@ -1,0 +1,40 @@
+.mobile{
+    display: none;
+}
+.desktop{
+    display: flex;
+justify-content: space-between;
+width: 100%;
+align-items: center;
+height: 4rem;
+z-index: 1000;
+margin-bottom: 6%;
+}
+
+.logo{
+    position: relative;
+    left: 10%;
+    height: 20%;
+    width: 20%;
+}
+
+.scroll{
+    background-color: rgb(247, 247, 247);
+    box-shadow: 2px 2px;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+  }
+
+
+  
+  
